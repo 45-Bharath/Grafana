@@ -1,0 +1,17 @@
+Grafana allows to visualise,query,alert and understand from where data are stored.It provides graphs and charts for the the data stored.
+
+Function
+
+dashboard:new(title,uid)::{
+title:title,
+[if uid!='' then 'uid']:uid,
+panles:[]
+schemaVersion:20
+}
+dashboard:new('super dash','my-dash');
+{
+"title":"super dash".
+"uid":"my-dash",
+"Panels":[],
+"schemaVersion":20
+}
